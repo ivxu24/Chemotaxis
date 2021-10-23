@@ -35,7 +35,7 @@ void setup() {
 }
 
 void draw() {
-  background(0);
+  background(233,212,247);
   int j = 0;
   while (j < carl.length) {
     carl[j].move();
