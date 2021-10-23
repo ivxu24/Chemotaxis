@@ -1,17 +1,4 @@
- //declare bacteria variables here   
- void setup()   
- {     
- 	//initialize bacteria variables here   
- }   
- void draw()   
- {    
- 	//move and show the bacteria   
- }  
- class Bacteria    
- {     
- 	//lots of java!   
- }    
- 
+
  class Bacteria {
   int myX, myY, myColor;
   Bacteria () {
@@ -30,13 +17,12 @@
     ellipse(myX, myY, 50, 10);
   }
 }
-Bacteria carl;
-Bacteria [] colony = new Bacteria[100];
+Bacteria [] carl = new Bacteria[100];
 int x = 150;
 void setup() {
   size(400, 400);
   background(0);
-  carl = new Bacteria(230, 250);
+  
   for (int i = 0; i < colony.length; i++) {
     colony[i] = new Bacteria();
   }
